@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Stupid Coach</h1>
+
+  <div class="card">
+    <div class="card-infos">
+      <h2><%= params[:input] %></h2>
+      <p>-- Your input </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-infos">
+      <h2><%= @answer %></h2>
+      <p>-- Your coach </p>
+    </div>
+  </div>
+  <div class="btn btn-gradient">
+    <%= link_to "Ask something else", ask_path %>
+  </div>
+</div>
